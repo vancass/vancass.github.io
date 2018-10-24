@@ -1,20 +1,20 @@
-title: Hi, I'm Vanessa
+title: Vanessa Cassandra
 description: > # this means to ignore newlines until "baseurl:"
   Application Engineer in an automation company. This site is to keep a diary of my learning journey.
 permalink: ':title/'
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://vancass.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Vanessa Cassandra # add your name
 author-img: profile.jpg # add your photo
-about-author: I am an engineer who has interest in hardware and front-end web. # add description
+about-author: An engineer who likes to build things. # add description
 social-twitter: vancassa # add your Twitter handle
-social-facebook: # add your Facebook handle
+social-facebook: vanessa.cassandra.1 # add your Facebook handle
 social-github: vancass # add your Github handle
-social-linkedin: # add your Linkedin handle
-social-email: # add your Email address
+social-linkedin: vanessa-cassandra-0b567b25 # add your Linkedin handle
+social-email: vanessa.cassandra.s@gmail.com # add your Email address
 
 # Disqus
 discus-identifier:  # add your discus identifier

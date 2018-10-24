@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Starting Jekyll
+title: Starting Jekyll and blogging in general
 date: 2018-09-10 13:32:20 +0300
 img: # Add image post (optional)
 fig-caption: # Add figcaption (optional)
