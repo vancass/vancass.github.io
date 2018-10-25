@@ -2,7 +2,7 @@
 layout: post
 title: Understanding Gender &#58; Inspiration
 date: 2018-09-27 22:22:10 +0300
-img: # Add image post (optional)
+img: titles/understanding-gender.png # Add image post (optional)
 fig-caption: # Add figcaption (optional)
 tags: [Pet Project, Understanding Gender, Explorable Explanations]
 ---
