@@ -2,7 +2,7 @@ title: Vanessa Cassandra
 description: > # this means to ignore newlines until "baseurl:"
   Application Engineer in an automation company. This site is to keep a diary of my learning journey.
 permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://vancass.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 site-twitter: #if your site has a twitter account, enter it here
 
