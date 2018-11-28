@@ -8,7 +8,7 @@ body {
 
 a {
   text-decoration: wavy underline;
-  color: indigo;
+  color: darkgreen;
 }
 
 a:hover {
@@ -134,8 +134,8 @@ a:hover {
 .project-container {
   margin: 0 auto;
   text-align: center;
-  padding: 20px;
-  max-width: 700px;
+  padding: 20px 20px 100px 20px;
+  max-width: 800px;
 }
 
 .project-title {
@@ -155,7 +155,6 @@ a:hover {
 
 .project-desc {
   /* display: inline-block; */
-  padding: 20px;
   max-width: 100%;
   margin-left: 20px;
   font-size: 18px;
