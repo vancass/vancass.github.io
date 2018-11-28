@@ -6,6 +6,16 @@ body {
   font-family: "Work Sans", sans-serif;
 }
 
+a {
+  text-decoration: wavy underline;
+  color: indigo;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
 #container {
   margin: 0 auto;
   padding: 20px;
@@ -37,7 +47,7 @@ body {
   font-size: 40px;
 }
 
-.project {
+.project-thumb {
   display: inline-block;
   max-width: 350px;
   background-color: #acc;
@@ -50,16 +60,16 @@ body {
   color: inherit;
 }
 
-.project:hover {
+.project-thumb:hover {
   background-color: #aed;
 }
 
-.project-image {
+.project-thumb-image {
   max-width: 100%;
   z-index: 2;
 }
 
-.project-desc {
+.project-thumb-desc {
   min-height: 100px;
   text-align: center;
   display: inline-block;
@@ -68,13 +78,10 @@ body {
   z-index: 2;
 }
 
-#connect {
-  margin-top: 50px;
-}
-
 #social-icons {
   text-align: center;
 }
+
 #social-icons .icon {
   background: #acc;
   display: inline-block;
@@ -90,6 +97,82 @@ body {
   -moz-border-radius: 17px;
   border-radius: 17px;
 }
+
 #social-icons .icon:hover {
   background: #aed;
+}
+
+.project-header {
+  position: relative;
+}
+
+.project-home {
+  position: absolute;
+  top: -30px;
+  left: 80px;
+  transition: top ease 0.5s;
+  text-decoration: none;
+  color: #2e4d4d;
+  font-weight: bold;
+}
+
+.project-header-image {
+  width: 70px;
+  border-radius: 70px;
+  filter: grayscale();
+  transition: filter 0.5s;
+}
+
+.project-header-image:hover {
+  filter: none;
+}
+
+.project-header-image:hover + .project-home {
+  top: 30px;
+}
+
+.project-container {
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  max-width: 700px;
+}
+
+.project-title {
+  color: #2e4d4d;
+}
+
+.project-desc-container {
+  vertical-align: top;
+}
+
+.project-image {
+  max-width: 200px;
+  float: left;
+  margin-left: 0;
+  margin-right: 10px;
+}
+
+.project-desc {
+  /* display: inline-block; */
+  padding: 20px;
+  max-width: 100%;
+  margin-left: 20px;
+  font-size: 18px;
+  color: #2e4d4d;
+  text-align: left;
+  border-radius: 10px;
+}
+
+.link-button {
+  margin-top: 10px;
+  background-color: #acc;
+  padding: 10px 20px;
+  border-radius: 100px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.link-button:hover {
+  background-color: #aed;
 }
